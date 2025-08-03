@@ -1,0 +1,2 @@
+class CourseFullError(Exception):
+    pass

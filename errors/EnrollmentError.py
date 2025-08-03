@@ -1,0 +1,2 @@
+class EnrollmentError(Exception):
+    pass
