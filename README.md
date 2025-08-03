@@ -3,4 +3,5 @@ This is a repository for the implementation of a class Student and a class Cours
 
 ## Class Diagram
 
-<img width="1795" height="740" alt="image" src="https://github.com/user-attachments/assets/5acbf8ba-1d65-404e-919f-c588cc09a4c6" />
+<img width="1755" height="732" alt="image" src="https://github.com/user-attachments/assets/c834ba0d-c2d0-45ca-85d0-51a9220ff93f" />
+
