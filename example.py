@@ -37,6 +37,19 @@ def main():
         print("Expected error enrolling 5th course for Brene:", e)
         print()
 
+    print("Using the special methods")
+
+    # __str__ is used by print()
+    print("Overriding __Str__ we can print:", brene)
+
+    # __eq__ is used by ==
+    another_brene = Student("bsan361", "Brene")
+    same_brene = Student("abcd123", "Brenda San G")
+    print("Overriding __eq__ we can compare two students by UPI:")
+    print("Is abcd123 Brene the same student as bsan361 Brene?", brene == another_brene)
+    print("Is abcd123 Brene the same student as bsan361 Brenda San G?", brene == same_brene)
+
+
 
 if __name__ == "__main__":
     main()

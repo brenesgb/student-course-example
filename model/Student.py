@@ -45,9 +45,9 @@ class Student:
             return NotImplemented
         return self.__student_id == other.__student_id
 
-    def __hash__(self):
-        return hash(self.__student_id)
-
     def __str__(self):
         course_codes = ", ".join(c.course_code for c in self._enrolled_courses)
         return f"{self._name} enrolled in: [{course_codes}]"
+
+    def __hash__(self):
+        return hash(self.__student_id)
